@@ -30,3 +30,12 @@ SyntaxError: invalid syntax
 <class 'dict'>
 >>> 
 
+# A term or phrase typed into a search box? string
+# If a user is logged in? string
+# A discount amount to apply to a user's shopping cart? float
+# Whether or not a coupon code is valid? bool
+# An email address typed into a registration form? string
+# The price of a product? float
+# A Matrix? int
+# The email addresses collected from a registration form? string
+# Information about applicants to Codeup's data science program? dict
