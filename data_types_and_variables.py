@@ -7,3 +7,10 @@ enroll_in_class == class_is_not_full and schedule_do_not_conflict
 # A product offer can be applied only if people buys more than 2 items, and the offer has not expired. Premium members do not need to buy a specific amount of products.
 product_offer == purchase_two_items and not_expired
 member_product_offer == purchase_two_items or not_expired
+# the password must be at least 5 characters
+atleast_five_characters
+# the username must be no more than 20 characters
+less_than_twenty_characters
+# the password must not be the same as the username
+pasword != username
+# bonus neither the username or password can start or end with whitespace
